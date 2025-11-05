@@ -1,11 +1,13 @@
 {
 	"name": "my-app",
 	"private": true,
+	"homepage": "https://milakropeczka.github.io/mini-react-apps",
 	"version": "0.0.0",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
 		"lint": "eslint .",
+		"deploy": "gh-pages -d dist",
 		"preview": "vite preview",
 		"test": "jest",
 		"test:watch": "jest --watch",
